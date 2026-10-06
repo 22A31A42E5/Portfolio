@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Naga Venkata Sri Sailaja Patneedi | AI/ML & Software Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f5f7f6;--surf:#fff;--ink:#16212b;--mute:#566572;--line:#d9e0e4;--acc:#0b6e69;--acc2:#e0f1ef;--pt:#9fb3bb;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10171c;--surf:#172128;--ink:#e8eef0;--mute:#9aabb4;--line:#27343c;--acc:#4fd1c5;--acc2:#15302f;--pt:#4a606b}}
+:root[data-theme="dark"]{--bg:#10171c;--surf:#172128;--ink:#e8eef0;--mute:#9aabb4;--line:#27343c;--acc:#4fd1c5;--acc2:#15302f;--pt:#4a606b}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:calc(64px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 'IBM Plex Sans',system-ui,sans-serif}
+h1,h2,h3{font-family:'Bricolage Grotesque','IBM Plex Sans',system-ui,sans-serif;line-height:1.15;margin:0}
+a{color:inherit}.mono{font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.82rem}
+:focus-visible{outline:2px solid var(--acc);outline-offset:3px}
+.w{max-width:1040px;margin:0 auto;padding:0 22px}
+section{padding:84px 0}h2{font-size:clamp(1.7rem,4vw,2.3rem);margin-bottom:28px}
+header.nav{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 92%,transparent);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+.nav .w{display:flex;align-items:center;justify-content:space-between;height:60px;gap:12px}
+.nav b{font-family:'Bricolage Grotesque',sans-serif}.nav nav{display:flex;gap:18px;overflow-x:auto}
+.nav nav a{text-decoration:none;color:var(--mute);font-size:.9rem;white-space:nowrap}.nav nav a:hover{color:var(--ink)}
+@media(max-width:760px){.nav b{display:none}}
+.hero{position:relative;padding:96px 0 72px;overflow:hidden}
+#net{position:absolute;inset:0;width:100%;height:100%;z-index:0}
+.hero .w{position:relative;z-index:1;pointer-events:none}.hero .w>*{pointer-events:auto}
+.hero h1{font-size:clamp(2.2rem,6.4vw,4.4rem);max-width:15ch;letter-spacing:-.02em;animation:in .7s both}
+.role{font-size:clamp(1.05rem,2.4vw,1.35rem);margin:18px 0 6px;font-weight:500;animation:in .7s .12s both}
+.lede{color:var(--mute);max-width:56ch;margin:0 0 26px;animation:in .7s .2s both}
+@keyframes in{from{opacity:0;transform:translateY(10px)}}
+.btns{display:flex;flex-wrap:wrap;gap:10px;animation:in .7s .28s both}
+.btn{display:inline-block;padding:10px 20px;border-radius:8px;border:1px solid var(--ink);text-decoration:none;font-weight:500;background:none;color:var(--ink);font:inherit;font-weight:500;cursor:pointer}
+.btn.p{background:var(--ink);color:var(--bg)}.btn:hover{border-color:var(--acc);color:var(--acc)}.btn.p:hover{background:var(--acc);color:var(--bg);border-color:var(--acc)}
+.quick{display:flex;flex-wrap:wrap;gap:8px 20px;margin-top:30px;color:var(--mute);animation:in .7s .36s both}
+.quick a{text-decoration:none;border-bottom:1px solid var(--line)}.quick a:hover{color:var(--acc);border-color:var(--acc)}
+.about{display:grid;grid-template-columns:1.4fr 1fr;gap:40px}@media(max-width:760px){.about{grid-template-columns:1fr}}
+.about p{margin:0 0 14px;max-width:62ch}.focus{border-left:2px solid var(--acc);padding-left:18px}.focus h3{font-size:1rem;margin-bottom:8px}.focus li{color:var(--mute);margin:4px 0}.focus ul{padding-left:18px;margin:0}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.card{background:var(--surf);border:1px solid var(--line);border-radius:12px;padding:20px}
+.card h3{font-size:1.02rem;margin-bottom:10px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}.tag{font-size:.8rem;padding:3px 10px;border-radius:99px;background:var(--acc2);color:var(--acc);border:1px solid transparent}
+.card p{margin:0 0 12px;color:var(--mute);font-size:.94rem}
+.feat{display:grid;gap:18px;grid-template-columns:1fr 1fr}@media(max-width:760px){.feat{grid-template-columns:1fr}}
+.feat .card{display:flex;flex-direction:column;gap:6px;padding:26px}.feat .card.big{grid-column:1/-1;border-color:var(--acc)}
+.feat h3{font-size:1.3rem}.feat ul{margin:4px 0 8px;padding-left:18px;color:var(--mute);font-size:.94rem}
+.met{display:flex;gap:22px;margin:6px 0}.met div{font-family:'Bricolage Grotesque',sans-serif;font-size:1.7rem;line-height:1}.met small{display:block;font:400 .78rem 'IBM Plex Mono',monospace;color:var(--mute);margin-top:4px}
+.row{margin-top:auto;padding-top:10px;display:flex;gap:10px;flex-wrap:wrap}.row .btn{padding:7px 14px;font-size:.88rem}
+h3.sub{margin:44px 0 16px;font-size:1.2rem}
+.tl{border-left:1px solid var(--line);margin-left:6px}.tl article{position:relative;padding:0 0 28px 26px}
+.tl article:before{content:"";position:absolute;left:-5px;top:8px;width:9px;height:9px;border-radius:50%;background:var(--acc)}
+.tl h3{font-size:1.08rem}.tl .when{color:var(--mute);margin:2px 0 8px;display:block}.tl ul{margin:0;padding-left:18px;color:var(--mute);font-size:.94rem;max-width:68ch}
+.edu{display:grid;gap:24px;grid-template-columns:1.2fr 1fr}@media(max-width:760px){.edu{grid-template-columns:1fr}}
+.cg{font-family:'Bricolage Grotesque',sans-serif;font-size:1.5rem;margin-top:8px}
+.cert{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));list-style:none;padding:0;margin:0}
+.cert li{padding:12px 16px;border:1px solid var(--line);border-radius:8px;background:var(--surf);font-size:.95rem}
+.ach{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}.ach .card h3{font-size:1.15rem}
+.more{margin-top:14px;color:var(--mute)}
+form{display:grid;gap:12px;max-width:520px}label{font-size:.88rem;color:var(--mute);display:grid;gap:4px}
+input,textarea{font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surf);color:var(--ink)}
+.ct{display:grid;grid-template-columns:1fr 1fr;gap:44px}@media(max-width:760px){.ct{grid-template-columns:1fr}}
+.ct dl{margin:0}.ct dt{color:var(--mute);font-size:.85rem;margin-top:14px}.ct dd{margin:0;overflow-wrap:anywhere}.note{font-size:.84rem;color:var(--mute)}
+footer{border-top:1px solid var(--line);padding:26px 0;color:var(--mute);font-size:.88rem}
+dialog{max-width:680px;width:calc(100% - 32px);border:1px solid var(--line);border-radius:14px;background:var(--surf);color:var(--ink);padding:28px;max-height:88vh;overflow:auto}
+dialog::backdrop{background:rgba(10,16,20,.55)}dialog h3{font-size:1.5rem;margin-bottom:6px}dialog h4{margin:20px 0 6px;font:500 .8rem 'IBM Plex Mono',monospace;color:var(--acc)}
+dialog p,dialog li{color:var(--mute);margin:0 0 6px}dialog ol,dialog ul{padding-left:20px;margin:0}
+.x{float:right}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="w"><b>Sailaja Patneedi</b>
+<nav aria-label="Sections"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#certs">Certifications</a><a href="#github">GitHub</a><a href="#contact">Contact</a></nav></div></header>
+
+<main>
+<div class="hero"><canvas id="net" aria-hidden="true"></canvas>
+<div class="w">
+<h1>Naga Venkata Sri Sailaja Patneedi</h1>
+<p class="role">AI/ML &amp; Software Developer</p>
+<p class="mono" style="color:var(--acc);margin:0 0 14px">Python, NLP, Data Analytics, Backend APIs</p>
+<p class="lede">I build practical AI, software and data projects, from embedding-based search to REST APIs and dashboards.</p>
+<div class="btns"><a class="btn p" href="#projects">View Projects</a><a class="btn" href="https://github.com/22A31A42E5" target="_blank" rel="noopener">GitHub</a><a class="btn" href="#contact">Contact Me</a></div>
+<div class="quick"><a href="tel:+919014262194">+91 9014262194</a><a href="mailto:patneedisailaja2006@gmail.com">patneedisailaja2006@gmail.com</a><a href="https://linkedin.com/in/sailaja-patneedi-786a6a295" target="_blank" rel="noopener">LinkedIn</a><a href="https://github.com/22A31A42E5" target="_blank" rel="noopener">GitHub</a></div>
+</div></div>
+
+<section id="about"><div class="w"><h2>About me</h2><div class="about">
+<div><p>I'm a 2026 B.Tech graduate in Computer Science &amp; Engineering (AI &amp; ML), interested in building practical AI, software and data solutions.</p>
+<p>My projects cover NLP with BERT and sentence embeddings, backend APIs with FastAPI and Flask, and data analysis with Pandas, SQL and Power BI. I've also completed several virtual internships in AI/ML, data analytics and Salesforce development.</p>
+<p>I'm looking for entry-level roles in software engineering, AI/ML, data and analytics, backend, or QA and testing.</p></div>
+<div class="focus"><h3>Open to entry-level roles</h3><ul><li>Software / Python / Backend</li><li>AI/ML and Data Science</li><li>Data Analyst, Power BI, SQL</li><li>QA, Testing, Automation</li><li>Technical and Application Support</li></ul></div></div></div></section>
+
+<section id="skills"><div class="w"><h2>Skills</h2><div class="grid" id="skillGrid"></div></div></section>
+
+<section id="projects"><div class="w"><h2>Featured projects</h2>
+<div class="feat">
+<article class="card big"><h3>SHL Assessment Recommendation Engine</h3>
+<p>Recommends relevant SHL assessments from a job description or query, using text embeddings and similarity search.</p>
+<div class="met"><div>0.56<small>MAP@3</small></div><div>0.50<small>Recall@3</small></div></div>
+<ul><li>Embeddings from all-MiniLM-L6-v2 (sentence-transformers), retrieved with FAISS</li><li>FastAPI and Streamlit for the API and interface</li></ul>
+<div class="tags" id="t-shl"></div>
+<div class="row"><button class="btn p" id="openShl">Read case study</button><a class="btn" href="https://github.com/22A31A42E5/shl_recommendation_engine" target="_blank" rel="noopener">GitHub repo</a></div></article>
+<article class="card"><h3>Multilingual Sentiment Analysis System</h3><p class="mono" style="color:var(--acc)">Final year project</p>
+<ul><li>Multilingual BERT model; detects the input language and supports 100+ languages</li><li>Classifies text as positive, negative or neutral, with confidence scores</li><li>REST API and web interface, real-time and batch analysis</li><li>Results stored in a database, with charts and history views</li></ul>
+<div class="tags" id="t-sent"></div><div class="row"><a class="btn" href="https://github.com/22A31A42E5/AIDrivenMultilingualSentimentAnalysisSystem" target="_blank" rel="noopener">GitHub repo</a></div></article>
+<article class="card"><h3>Retail Sales &amp; Profitability Analytics Dashboard</h3><p class="mono" style="color:var(--acc)">Main data analytics project</p>
+<ul><li>Data cleaning and exploratory analysis with Python and Pandas</li><li>SQL queries to analyze sales and profitability</li><li>KPIs and a Power BI dashboard presenting sales, profitability and business insights</li></ul>
+<div class="tags" id="t-ret"></div><div class="row"><a class="btn" href="https://github.com/22A31A42E5" target="_blank" rel="noopener">GitHub profile</a></div></article>
+<article class="card big"><h3>Job Application Tracker API</h3>
+<p>A backend application for managing and tracking job applications, with CRUD operations exposed as REST endpoints.</p>
+<ul><li>FastAPI endpoints backed by SQLite storage</li><li>Data handling, validation and API functionality</li></ul>
+<div class="tags" id="t-job"></div><div class="row"><a class="btn" href="https://github.com/22A31A42E5/Job-Application-Tracker" target="_blank" rel="noopener">GitHub repo</a></div></article>
+</div>
+<h3 class="sub">All projects</h3><div class="grid" id="allGrid"></div>
+<p class="note more">Projects without a repo button are not linked to a specific repository yet. Everything public is on <a href="https://github.com/22A31A42E5" target="_blank" rel="noopener">GitHub</a>.</p></div></section>
+
+<section id="experience"><div class="w"><h2>Experience</h2><div class="tl" id="tl"></div>
+<p class="note">These are internships and virtual programs completed during my degree, not full-time roles.</p></div></section>
+
+<section id="education"><div class="w"><h2>Education</h2><div class="edu">
+<div class="card"><h3>B.Tech in Computer Science &amp; Engineering (AI &amp; ML)</h3><p style="margin:6px 0 0">Pragati Engineering College</p><p class="mono">2022–2026</p><div class="cg">CGPA: 8.96/10</div></div>
+<div class="card"><h3>Relevant coursework</h3><div class="tags"><span class="tag">DBMS</span><span class="tag">Operating Systems</span><span class="tag">OOP</span><span class="tag">SDLC</span><span class="tag">Data Structures</span></div></div></div></div></section>
+
+<section id="certs"><div class="w"><h2>Certifications</h2><ul class="cert" id="certList"></ul></div></section>
+
+<section id="achievements"><div class="w"><h2>Achievements</h2><div class="ach">
+<div class="card"><h3>1st Place, College Talent Expo</h3><p>For the Flame Sensor Alert System, an Arduino-based flame detection prototype.</p></div>
+<div class="card"><h3>5-Star Python, HackerRank</h3><p>Python problem-solving rating on HackerRank.</p></div>
+<div class="card"><h3>Open-source contribution, Frappe</h3><p>Pull request #33453: sidebar icon consistency fix in the Frappe framework UI. <a href="https://github.com/frappe/frappe/pull/33453" target="_blank" rel="noopener">View PR</a></p></div></div>
+<p class="more">I have also organized technical events at college and worked in teams during internships and projects.</p></div></section>
+
+<section id="github"><div class="w"><div class="card" style="padding:32px"><h2 style="margin-bottom:10px">See the code on GitHub</h2><p style="max-width:56ch">Public repositories from this portfolio and more. Open any of them to read the code.</p><div class="tags" style="margin-bottom:16px"><a class="tag" href="https://github.com/22A31A42E5/shl_recommendation_engine" target="_blank" rel="noopener">shl_recommendation_engine</a><a class="tag" href="https://github.com/22A31A42E5/AIDrivenMultilingualSentimentAnalysisSystem" target="_blank" rel="noopener">AIDrivenMultilingualSentimentAnalysisSystem</a><a class="tag" href="https://github.com/22A31A42E5/Job-Application-Tracker" target="_blank" rel="noopener">Job-Application-Tracker</a><a class="tag" href="https://github.com/22A31A42E5/smart_rainwater_app" target="_blank" rel="noopener">smart_rainwater_app</a><a class="tag" href="https://github.com/22A31A42E5/text-analysis-tool" target="_blank" rel="noopener">text-analysis-tool</a><a class="tag" href="https://github.com/22A31A42E5/movie-genre-classification" target="_blank" rel="noopener">movie-genre-classification</a><a class="tag" href="https://github.com/22A31A42E5/Productivity-Dashboard" target="_blank" rel="noopener">Productivity-Dashboard</a><a class="tag" href="https://github.com/22A31A42E5/QR-Code-Generator" target="_blank" rel="noopener">QR-Code-Generator</a><a class="tag" href="https://github.com/22A31A42E5/Student-Management-System-Salesforce" target="_blank" rel="noopener">Student-Management-System-Salesforce</a></div><div class="row"><a class="btn p" href="https://github.com/22A31A42E5" target="_blank" rel="noopener">github.com/22A31A42E5</a></div></div></div></section>
+
+<section id="contact"><div class="w"><h2>Contact</h2><div class="ct">
+<dl><dt>Phone</dt><dd><a href="tel:+919014262194">+91 9014262194</a></dd><dt>Email</dt><dd><a href="mailto:patneedisailaja2006@gmail.com">patneedisailaja2006@gmail.com</a></dd><dt>LinkedIn</dt><dd><a href="https://linkedin.com/in/sailaja-patneedi-786a6a295" target="_blank" rel="noopener">linkedin.com/in/sailaja-patneedi-786a6a295</a></dd><dt>GitHub</dt><dd><a href="https://github.com/22A31A42E5" target="_blank" rel="noopener">github.com/22A31A42E5</a></dd></dl>
+<form id="cf"><label>Name<input name="n" required></label><label>Your email<input name="e" type="email" required></label><label>Message<textarea name="m" rows="4" required></textarea></label>
+<button class="btn p" type="submit">Open in my email app</button>
+<p class="note">This form has no server behind it. It opens your email app with the message filled in, and nothing is sent until you press send there.</p></form></div></div></section>
+</main>
+<footer><div class="w">Naga Venkata Sri Sailaja Patneedi</div></footer>
+
+<dialog id="shl" aria-labelledby="shlT"><button class="btn x" id="closeShl" aria-label="Close">Close</button>
+<h3 id="shlT">SHL Assessment Recommendation Engine</h3><div class="tags" id="t-shl2" style="margin-top:10px"></div>
+<h4>PROBLEM</h4><p>Matching a job description to the right assessments by keyword is unreliable. The goal was to recommend relevant SHL assessments from free-text job descriptions or queries.</p>
+<h4>APPROACH</h4><p>An embedding-based semantic recommendation and retrieval system: assessments and queries are turned into vectors, and the closest assessments are returned by similarity.</p>
+<h4>HOW IT WORKS</h4><ol><li>Load assessment data with Pandas (including final_tests.csv).</li><li>Create text embeddings with sentence-transformers (all-MiniLM-L6-v2).</li><li>Index them with FAISS for similarity-based retrieval.</li><li>Embed the user's query and retrieve the most similar assessments.</li><li>Serve results through FastAPI, with a Streamlit interface.</li></ol>
+<h4>EVALUATION</h4><p>Evaluated with MAP@3 and Recall@3.</p>
+<h4>RESULTS</h4><p><b style="color:var(--ink)">MAP@3: 0.56</b> and <b style="color:var(--ink)">Recall@3: 0.50</b>.</p>
+<h4>GITHUB AND DEPLOYMENT</h4><p>Code is in a public GitHub repository (<a href="https://github.com/22A31A42E5/shl_recommendation_engine" target="_blank" rel="noopener">shl_recommendation_engine</a>). I worked with deployment using Streamlit, Render and Hugging Face Spaces. A public demo link is not listed here.</p></dialog>
+
+<script>
+const T=(a)=>a.map(x=>`<span class="tag">${x}</span>`).join('');
+const skills={"Programming":["Python","C","SQL"],"AI / ML":["Machine Learning","Pandas","NumPy"],"NLP":["NLP","BERT","Sentence Transformers","Text Embeddings","Semantic Similarity","FAISS"],"Data & Analytics":["Data Analysis","Power BI","Excel","Data Visualization"],"Backend & APIs":["FastAPI","Flask","REST APIs","SQLite"],"Web":["HTML","CSS","Basic JavaScript"],"Tools":["Git","GitHub","Google Colab","VS Code"],"Software Engineering":["Software Testing","Debugging","API Testing","DBMS","OOP","SDLC","Problem Solving","Analytical Thinking","Teamwork"]};
+skillGrid.innerHTML=Object.entries(skills).map(([k,v])=>`<div class="card"><h3>${k}</h3><div class="tags">${T(v)}</div></div>`).join('');
+const set=(id,a)=>document.getElementById(id).innerHTML=T(a);
+set('t-shl',["Python","FastAPI","Streamlit","Sentence Transformers","FAISS","Pandas"]);set('t-shl2',["Python","FastAPI","Streamlit","Sentence Transformers","FAISS","Pandas"]);
+set('t-sent',["Python","Flask","BERT"]);set('t-ret',["Python","Pandas","SQL","Power BI"]);set('t-job',["Python","FastAPI","SQLite","SQL","REST API","Git/GitHub"]);
+const U={"FitPulse: Health Anomaly Detection System":"FitPulse-Infosys-Springboard","Text Analysis Tool":"text-analysis-tool","Photo Manipulation Using Python":"photo_manipulation_using_python","Flame Sensor Alert System":"Flame-Sensor-using-Arduino","Mole and Hole Game":"mole-and-hole-game","Expense Tracker Web Application":"Expense-Tracker","Smart Rainwater Harvesting App":"smart_rainwater_app"};
+const gh=t=>`<div class="row"><a class="btn" href="https://github.com/22A31A42E5${U[t]?'/'+U[t]:''}" target="_blank" rel="noopener">${U[t]?'GitHub repo':'GitHub profile'}</a></div>`;
+const P=[["FitPulse: Health Anomaly Detection System","A health-focused machine learning application for detecting unusual health patterns, using data preprocessing and anomaly detection concepts.",["Python","Machine Learning","Data Processing"]],
+["Text Analysis Tool","Flask web app for analyzing large PDF and DOCX documents: TextBlob sentiment analysis and spaCy Named Entity Recognition, with a responsive Bootstrap interface.",["Python","Flask","TextBlob","spaCy","Bootstrap"]],
+["Customer Churn Analysis","Analyzed customer data to identify churn patterns and factors linked to attrition.",["Python","Pandas","SQL","Data Analysis","Visualization"]],
+["E-Commerce Testing & Automation","Tested an e-commerce application: wrote and ran test cases, covered functional and regression testing, documented defects, and worked with automated testing workflows.",["Software Testing","Test Automation","Selenium/testing tools"]],
+["Smart Rainwater Harvesting App","Dashboard to forecast rainfall with an LSTM model and optimize tank usage with a genetic algorithm. Upload a CSV to start. Built with Streamlit.",["Python","Streamlit","LSTM","Genetic Algorithm"]],
+["Photo Manipulation Using Python","Image processing tool for high-resolution images, with filtering and edge detection, and work on improving algorithm efficiency.",["Python","NumPy","Pandas"]],
+["Personal Finance Tracker","Application for managing personal finances and expenses, covering data storage, transaction tracking and financial analysis.",["Python / SQL / Web development"]],
+["Expense Tracker Web Application","Web application for recording and managing expense information.",["Web application"]],
+["Flame Sensor Alert System","Prototype fire detection system that senses flame and raises an alert. Won 1st Place at the College Talent Expo.",["Arduino","Flame Sensor"]],
+["Mole and Hole Game","Browser-based interactive game.",["HTML","CSS","JavaScript"]]];
+allGrid.innerHTML=P.map(p=>`<article class="card"><h3>${p[0]}</h3><p>${p[1]}</p><div class="tags">${T(p[2])}</div>${gh(p[0])}</article>`).join('');
+const E=[["1M1B Green Internship","May 2025 – June 2025",["Worked with a team on a data-driven water-conservation project","Worked on predicting and reducing water usage","Built dashboards to track project results and reported progress to mentors"]],
+["Accenture Data Analytics and Visualization (Forage)","August 2024",["Completed a data analytics and visualization simulation","Data cleaning, analysis, visualization and presentation on the Social Buzz project","Analyzed content categories, found insights and prepared a presentation"]],
+["Google AI/ML Internship (AICTE Eduskills)","July 2024 – September 2024",["Worked with AI/ML concepts and practical projects","Worked with datasets and machine learning workflows"]],
+["Salesforce Developer Virtual Internship (Salesforce Trailhead)","October 2023 – November 2023",["Worked with Salesforce development concepts and platform-based development","Gained exposure to Salesforce tools and development workflows"]],
+["Altair Data Science Virtual Internship","",["Worked with data science concepts and practical data-related projects","Gained experience with data analysis and data science workflows"]]];
+tl.innerHTML=E.map(e=>`<article><h3>${e[0]}</h3>${e[1]?`<span class="when mono">${e[1]}</span>`:''}<ul>${e[2].map(x=>`<li>${x}</li>`).join('')}</ul></article>`).join('');
+certList.innerHTML=["AWS Academy Graduate: Cloud Foundations","AWS Academy Graduate: Machine Learning Foundations","Google Cloud Computing Foundations","Salesforce Certified AI Associate","NPTEL Programming in Java (Elite)","IBM Artificial Intelligence","Accenture Data Analytics &amp; Visualization (Forage)","Google AI/ML Virtual Internship (AICTE Eduskills)","Salesforce Developer Virtual Internship (Trailhead)"].map(c=>`<li>${c}</li>`).join('');
+openShl.onclick=()=>shl.showModal();closeShl.onclick=()=>shl.close();shl.addEventListener('click',e=>{if(e.target===shl)shl.close()});
+cf.onsubmit=e=>{e.preventDefault();const f=new FormData(cf);location.href='mailto:patneedisailaja2006@gmail.com?subject='+encodeURIComponent('Portfolio message from '+f.get('n'))+'&body='+encodeURIComponent(f.get('m')+'\n\nReply to: '+f.get('e'))};
+// Embedding-space hero: the three nearest points to the cursor light up (top-3 retrieval).
+(function(){const c=document.getElementById('net'),x=c.getContext('2d'),css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+let W,H,pts=[],m=null,rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+function size(){const r=c.getBoundingClientRect(),d=devicePixelRatio||1;W=r.width;H=r.height;c.width=W*d;c.height=H*d;x.setTransform(d,0,0,d,0,0);
+const n=Math.round(Math.min(70,W*H/14000));pts=Array.from({length:n},()=>({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.15,vy:(Math.random()-.5)*.15}));}
+function draw(){x.clearRect(0,0,W,H);const pc=css('--pt'),ac=css('--acc');
+if(!rm)pts.forEach(p=>{p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1});
+x.fillStyle=pc;pts.forEach(p=>{x.beginPath();x.arc(p.x,p.y,1.8,0,7);x.fill()});
+if(m){const nn=[...pts].sort((a,b)=>(a.x-m.x)**2+(a.y-m.y)**2-((b.x-m.x)**2+(b.y-m.y)**2)).slice(0,3);x.strokeStyle=ac;x.fillStyle=ac;x.lineWidth=1;
+nn.forEach(p=>{x.beginPath();x.moveTo(m.x,m.y);x.lineTo(p.x,p.y);x.stroke();x.beginPath();x.arc(p.x,p.y,4,0,7);x.fill()});x.beginPath();x.arc(m.x,m.y,3,0,7);x.stroke()}
+if(!rm)requestAnimationFrame(draw)}
+c.parentElement.addEventListener('pointermove',e=>{const r=c.getBoundingClientRect();m={x:e.clientX-r.left,y:e.clientY-r.top};if(rm)draw()});
+c.parentElement.addEventListener('pointerleave',()=>{m=null;if(rm)draw()});
+addEventListener('resize',()=>{size();if(rm)draw()});size();draw();})();
+</script>
+</body>
+</html>
